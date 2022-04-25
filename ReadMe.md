@@ -1,5 +1,5 @@
 # Note Taker application
-
+A note taking app that allowed me to practice with routing and passing stored data. 
 
 link to video:
 
@@ -16,7 +16,7 @@ link to video:
 This program will allow to type in a note and save it to a file where it can be recalled until it is deleted. Similar to a database but not in SQL format. 
 
 ## Installation
-
+npm install 
 
 ## Usage
 
