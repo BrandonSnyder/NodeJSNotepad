@@ -2,7 +2,6 @@ const express = require('express')
 const path = require('path')
 const fs = require('fs') // might not need 
 const {v4: uuidv4} = require('uuid')
-const { clog } = require('./middleware/clog');
 const api = require('./routes/index.js');
 
 

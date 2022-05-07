@@ -57,7 +57,9 @@ const renderActiveNote = () => {
     noteTitle.setAttribute('readonly', true);
     noteText.setAttribute('readonly', true);
     noteTitle.value = activeNote.title;
-    noteText.value = activeNote.text;
+    console.log('activeNote')
+    console.log(activeNote.body)
+    noteText.value = activeNote.body;
   } else {
     noteTitle.removeAttribute('readonly');
     noteText.removeAttribute('readonly');
@@ -130,6 +132,7 @@ const renderNoteList = async (notes) => {
     const liEl = document.createElement('li');
     liEl.classList.add('list-group-item');
 
+    // adding the function of moving pulling the text up in the main note. 
     const spanEl = document.createElement('span');
     spanEl.classList.add('list-item-title');
     spanEl.innerText = text;
